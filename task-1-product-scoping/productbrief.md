@@ -8,6 +8,8 @@ Contents:
 - Flow diagrams
 - Product decisions
 
+# Product Name - Performance Assistant
+
 # Product Brief
 
 ## Problem
