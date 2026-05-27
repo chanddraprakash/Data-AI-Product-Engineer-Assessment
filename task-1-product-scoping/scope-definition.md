@@ -3,8 +3,8 @@
 # V1 Scope
 
 ## Included
-- Connect Google Ads API
-- Connect Meta Ads API
+- Login
+- client selection
 - Unified dashboard
 - Daily performance summary
 - Channel comparison
