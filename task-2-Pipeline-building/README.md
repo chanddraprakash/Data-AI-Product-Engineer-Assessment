@@ -83,11 +83,13 @@ This query shows:
 ### 1) How would you schedule this pipeline to run automatically?
    
 -->To move this pipeline from a local manual execution to an automated production environment, I would use Apache Airflow
+
 -->Apache Airflow is an open-source tool used to schedule, automate, and manage data workflows.
 
 How It Work - Instead of manually running the Python script every day, I would place the script inside an Apache Airflow DAG (Directed Acyclic Graph). A DAG represents the workflow pipeline and defines the order of tasks, such as fetching data, cleaning data, and uploading it to BigQuery. Airflow understands which task should run first and which tasks depend on others. The DAG would be scheduled using a Cron expression so the pipeline runs automatically at fixed intervals, such as every day, every hour, or every week, without requiring manual execution.
 
 --> Directed Acyclic Graph = WorkFlow Pipeline
+
 -->A Cron expression is a time schedule format used to tell systems when to run automatically.
 
 ### 2) How would you know if it failed?
